@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js"></script>
+    <script type="javascript" src="jquery.js"></script>
+    <script type="javascript" src="script_jquery.js"></script>
+    <script>
+
+    </script>
+
+    <style>
+        body {
+            background-image: url("img/wendigo.gif");
+            background-size: 100%;
+            background-repeat: repeat-y;
+            background-attachment: fixed;
+            height: 100%;
+            width: 100%;
+            color: transparent;
+            cursor: url(img/lups.gif),auto;
+        }
+         
+        div{
+            height: 100%;
+            width: 100%;
+            
+        }
+        img{
+            height: 30vh;
+            width: 30vh;
+        }
+        
+
+    </style>
+</head>
+
+<body id="corpo">
+    <div onmouseover="moveWend3()">
+    <audio src="sons/TheRing.mp3" autoplay playsinline controls poster="" loop>
+        <p>Seu navegador não suporta o elemento audio </p>
+    </audio>
+    </div>
+    <div id="caract" onmouseover="moveWend()">
+
+        <h2>Características:</h2>
+        <ul>
+
+            <li>
+                Wendigos são mais altos do que a maioria dos seres humanos. Eles são magros e têm pele verde pálido. Eles são humanóides e estão equipados com garras afiadas utilizadas para rasgar a presa em pedaços. Eles têm olhos vermelhos, com dentes afiados amarelos.</li>
+            <li>Wendigos são excelentes caçadores, seja durante o dia ou à noite. Existem algumas possibilidades para derrotar um wendigo durante o dia, mas é quase impossível derrotá-los à noite, já que é o período preferido para caçar. Além disso, apesar de ser animal como, Wendigos são inteligentes, tão inteligentes como os seres humanos, tornando-os ainda mais perigoso.</li>
+            <li>Mimetismo de voz -> eles podem imitar as vozes de seres humanos para atrair vítimas inocentes.</li>
+            <li>Pode ser temporariamente repelido por
+                figuras religiosas como o crucifixo.</li>
+            <li>Alimenta-se de corações humanos</li>
+            <li>Imortalidade -> Wendigos pode viver para sempre.</li>
+            <li>Super velocidade -> eles possuem velocidade desumana, o suficiente para deslocar rapidamente de um lugar para outro.</li>
+            <li>Força sobre-humana -> Eles podem transportar duas pessoas e ainda arrastá-los até uma árvore com facilidade.</li>
+            <li>Agilidade sobre-humana -> Eles podem saltar de árvore em árvore sem ser dissuadido pela folhagem.</li>
+            <li>Invulnerabilidade -> Eles são invulneráveis a (embora irritada por) facas e armas normais.</li>
+            <li>Garras -> Wendigo têm garras gigantes, que eles usam para caçar ou para atacar.</li>
+        </ul>
+    </div>
+    <div id="fraq" onmouseover="moveWend1()">
+        <h2>Fraquezas:</h2>
+        <ul>
+
+            <li>Fogo - A única forma conhecida para matar um Wendigo é queimá-los.</li>
+            <li>Símbolos Anasazi - símbolos especiais anasazi, desenhe em círculos de proteção, vai manter um Wendigo distância.</li>
+
+        </ul>
+    </div>
+
+    <p onmouseover="moveWend2()" id="parag" >
+        &nbsp;Segundo o Bestiário, Thomas Strauss enfrentou alguns Wendigos na América do Norte, que aparentemente é o local
+        mais comúm de encontrar tais criaturas. Strauss constumava viajar bastante por rotas alternativas, passando principalmente
+        por locais mais selvagens que o normal, portanto sua cabana tinha simbolos anasazi especificos para criaturas que poderia
+        encontrar. Ele conta que já eliminou três Wendigos em toda sua vida, obviamente queimando-os, porém na maioria das vezes, os
+        Wendigos ignoraram sua presença devido aos simbolos encontrados em sua cabana.
+
+    </p>
+
+
+     <footer>
+        <table id="movimentacao" onmouseover="moveWend3()">
+        <tr>
+            <td><button onclick="link()" id="voltaPag">Voltar</button></td>
+            <td><button onclick="Home()" id="voltaHome">Home</button></td>
+            </tr>
+        </table>
+        
+        
+    </footer>
+</body>
+
+</html>
