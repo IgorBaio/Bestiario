@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criaturas</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js"></script>
+    <style>
+        .tabela {
+            background-color: rgba(10, 23, 55, 0.5);
+            margin: auto;
+            margin-top: 10%;
+            font-style: italic;
+            font-weight: bolder;
+            color: orange;
+        }
+
+        table,td,tr {
+            height: 50px;
+            width: 100px
+        }
+
+        button {
+            height: 50px;
+            width: 100px;
+        }
+
+        img {
+            height: 50px;
+            width: 100px;
+        }
+        .butao{
+            background-image:linear-gradient(to bottom, wheat, brown);
+        }
+        #voltaHome{
+            background-color: transparent;
+            color:wheat;
+        }
+
+    </style>
+
+</head>
+
+<body onload="carregaUm()" id="cria">
+    <audio  src="sons/Him.mp3" autoplay playsinline controls poster="" loop>
+        <p>Seu navegador não suporta o elemento audio </p>
+    </audio>
+    <table class="tabela">
+        <tr>
+            <td>Criaturas</td>
+            <td>imagem</td>
+        </tr>
+        <tr>
+            <td> <button class="butao" onclick="link1()">Lobisomem</button></td>
+            <td><img src="img/lobin.png"></td>
+        </tr>
+        <tr>
+            <td><button class="butao" onclick="link2()">Wendigo</button></td>
+            <td><img src="img/wendigo3.gif"></td>
+        </tr>
+        <tr>
+            <td> <button class="butao" onclick="link3()">Bruxa</button></td>
+            <td><img src="img/bruxa.png"></td>
+        </tr>
+        <tr>
+            <td> <button class="butao" onclick="link4()">Demônio</button></td>
+            <td><img src="img/demoin.png"></td>
+        </tr>
+        <tr>
+            <td> <button class="butao" onclick="link5()">Fantasmas</button></td>
+            <td><img src="img/ghoststoriesimage.png"></td>
+        </tr>
+    </table>
+
+
+    <footer>
+        <button onclick="Home()" id="voltaHome">Home</button>
+    </footer>
+    
+</body>
+
+</html>

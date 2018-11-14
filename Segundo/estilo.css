@@ -1,0 +1,96 @@
+body {
+    background-image: url("img/marca.png");
+    font-family: Brush Script MT, Brush Script Std, cursive;
+
+}
+
+
+#welc {
+    height: 100%;
+    width: 100%;
+    /* width: 200vh;
+    height: 100vh;
+*/
+}
+
+#welcome {
+    height: 100%;
+    width: 100%;
+}
+
+#cria {
+    background-image: url("img/slenderman.gif");
+    background-size: 100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.Lobo {
+    background-image: url('img/Lobisomem.png');
+    background-size: 100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+#voltaHome {
+    margin-left: 90%;
+    margin-right: 10%;
+    margin-top: 3%;
+
+}
+
+#voltaPag {
+    margin-right: 90%;
+    margin-left: 10%;
+    margin-top: 15%;
+
+}
+
+#bruxa {
+    background-image: url('img/ritual.jpg');
+    background-size: 100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+#sobre {
+    margin: auto;
+    height: 70px;
+    width: 100px;
+    background-color: rgba(10, 23, 55, 0.5);
+    color: wheat;
+}
+
+#relato {
+    background-color: wheat;
+    color: rgb(10, 23, 55);
+
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#titulos {
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 15px;
+    color: yellow;
+}
+ #movimentacao{
+            margin: auto;
+            height: 70px;
+            width: 100px;
+        }
+.ghost{
+     background-image: url('img/ghostin.gif');
+    background-size: 100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
