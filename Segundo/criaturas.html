@@ -4,6 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bestiário de Thomas Strauss, um lugar onde contém dados sobre criadturas sobrenaturais e como detê-las.">
+    <meta name="keywords" content="Bestas, criaturas, sobrenatural, supernatural, lobisomem, bruxas, bruxos, wendigo, demônio, fantasma">
+    <meta name="author" content="Igor Baio Soares">  
     <title>Criaturas</title>
     <link rel="stylesheet" href="estilo.css">
     <script src="script.js"></script>
@@ -17,7 +20,9 @@
             color: orange;
         }
 
-        table,td,tr {
+        table,
+        td,
+        tr {
             height: 50px;
             width: 100px
         }
@@ -31,46 +36,52 @@
             height: 50px;
             width: 100px;
         }
-        .butao{
-            background-image:linear-gradient(to bottom, wheat, brown);
-        }
-        #voltaHome{
-            background-color: transparent;
-            color:wheat;
+
+        .butao {
+            background-image: linear-gradient(to bottom, wheat, brown);
         }
 
+        #voltaHome {
+            background-color: transparent;
+            color: wheat;
+            margin-left: 90%;
+            margin-right: 10%;
+            margin-top: 3%;
+
+        }
+        
     </style>
 
 </head>
 
 <body onload="carregaUm()" id="cria">
-    <audio  src="sons/Him.mp3" autoplay playsinline controls poster="" loop>
+    <audio src="sons/Him.mp3" autoplay controls loop>
         <p>Seu navegador não suporta o elemento audio </p>
     </audio>
     <table class="tabela">
         <tr>
-            <td>Criaturas</td>
+            <td>Bestas</td>
             <td>imagem</td>
         </tr>
         <tr>
             <td> <button class="butao" onclick="link1()">Lobisomem</button></td>
-            <td><img src="img/lobin.png"></td>
+            <td><img src="img/lobin.png" alt="Imagem de Lua cheia"></td>
         </tr>
         <tr>
             <td><button class="butao" onclick="link2()">Wendigo</button></td>
-            <td><img src="img/wendigo3.gif"></td>
+            <td><img src="img/wendigo3.gif" alt="Símbolo anasazi"></td>
         </tr>
         <tr>
             <td> <button class="butao" onclick="link3()">Bruxa</button></td>
-            <td><img src="img/bruxa.png"></td>
+            <td><img src="img/bruxa.png" alt="Imagem de um Pentagrama"></td>
         </tr>
         <tr>
             <td> <button class="butao" onclick="link4()">Demônio</button></td>
-            <td><img src="img/demoin.png"></td>
+            <td><img src="img/demoin.png" alt="Imagem de Pentagrama com chamas"></td>
         </tr>
         <tr>
             <td> <button class="butao" onclick="link5()">Fantasmas</button></td>
-            <td><img src="img/ghoststoriesimage.png"></td>
+            <td><img src="img/ghoststoriesimage.png" alt="Imagem de fantasma"></td>
         </tr>
     </table>
 
@@ -78,7 +89,7 @@
     <footer>
         <button onclick="Home()" id="voltaHome">Home</button>
     </footer>
-    
+
 </body>
 
 </html>

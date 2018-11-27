@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="pt-br">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <meta name="description" content="Bestiário de Thomas Strauss, um lugar onde contém dados sobre criadturas sobrenaturais e como detê-las.">
+    <meta name="keywords" content="Bestas, criaturas, sobrenatural, supernatural, lobisomem, bruxas, bruxos, wendigo, demônio, fantasma">
+    <meta name="author" content="Igor Baio Soares">  
+    <title>Bruxa</title>
     <link rel="stylesheet" href="estilo.css">
     <script src="script.js"></script>
     <style>
@@ -13,30 +16,29 @@
             height: 180vh;
             width: 100vh;
         }
-        #voltaHome {
-            margin-top: 0;
-        }
-        #voltaPag {
-            margin-top: 3%;
-        }
+        
+        
        
     </style>
 </head>
 
 <body id="bruxa">
+        <audio src="sons/Go%20Tell%20Aunt%20Rhody%20RE7%20Official%20Soundtrack%20Full%20Version.mp3" autoplay controls loop>
+            <p>Seu navegador não suporta o elemento audio </p>
+        </audio>
     <table id="sobre">
         <tr>
             <td id="titulos">Características:</td>
-            <td rowspan="6"><img id="imgTable" src="img/simbolos.jpg" /></td>
-            <td id="titulos">Fraquezas:</td>
+            <td rowspan="5"><img id="imgTable" src="img/simbolos.jpg" alt="Imagem de uma bruxa com seu ritual" /></td>
+            <td id="titulos1">Fraquezas:</td>
         </tr>
         <tr>
-            <td>- As bruxas (ou bruxos) são humanos capazes de se conectar com o mundo sobrenatural para realizar feitiços</td>
+            <td>- As bruxas (ou bruxos) são seres humanos capazes de se conectar com o mundo sobrenatural para realizar feitiços</td>
             <td>- O poder de uma bruxa pode ser reprimido com o uso de ferro, recomenda-se o uso de algemas ou correntes para esse propósito</td>
         </tr>
         <tr>
-            <td>- Muitos feitiços usam partes de humanos como ingredientes, é por esse detalhe que as bruxas são geralmente perigosas</td>
-            <td rowspan="2">- Baseando-se no fato de que as bruxas ainda são humanos, eles compartilham muitas das mesmas fraquezas como seres não-sobrenaturais (por exemplo, idade, decapitação, doença, de insuficiência cardíaca, asfixia, etc.). No entanto, sabe-se que, especialmente bruxas poderosas podem superar estas deficiências.</td>
+            <td>- Muitos feitiços usam partes de humanos como ingredientes, é por este detalhe que as bruxas geralmente são perigosas</td>
+            <td rowspan="3">- Baseando-se no fato de que as bruxas ainda são seres humanos, eles compartilham muitas das mesmas fraquezas como seres não-sobrenaturais (por exemplo, idade, decapitação, doença como por exemplo insuficiência cardíaca, asfixia, etc.). No entanto, sabe-se que, especialmente as bruxas mais poderosas podem superar estas deficiências.</td>
         </tr>
         <tr>
             <td>- Organizam-se em sociedades secretas e complexas, buscando distância dos caçadores e do mundo civilizado</td>
@@ -48,9 +50,7 @@
 
 
 <p id="relato" >
-        &nbsp;De acordo com o bestiário de Strauss, ele encontrou durante sua vida vários documentos da Santa Inquisição. Esses documentos continham vários casos de
-pessoas que foram queimadas na fogueira santa, em sua maioria, bruxas reais. Ao decorrer da idade média, as bruxas foram amplamente caçadas pela igreja
-e pelos governantes, fazendo sua população cair absurdamente, devido a esse fato, raramente podemos encontrar um caso de bruxaria nos dias atuais, visto que elas se tornaram extremamente isoladas da sociedade para sua própria proteção.
+        &nbsp;De acordo com o bestiário de Strauss, ele encontrou durante sua vida vários documentos da Santa Inquisição. Esses documentos continham vários casos de pessoas que foram queimadas na fogueira Santa, em sua maioria, bruxas reais. Ao decorrer da idade média, as bruxas foram amplamente caçadas pela igreja e pelos governantes, fazendo sua população cair absurdamente, devido a esse fato, raramente podemos encontrar um caso de bruxaria nos dias atuais, visto que elas se tornaram extremamente isoladas da sociedade para sua própria proteção.
     </p>
 
 
@@ -60,8 +60,8 @@ e pelos governantes, fazendo sua população cair absurdamente, devido a esse fa
      <footer>
         <table id="movimentacao">
         <tr>
-            <td><button onclick="link()" id="voltaPag">Voltar</button></td>
-            <td><button onclick="Home()" id="voltaHome">Home</button></td>
+            <td><button onclick="link()" id="voltaAnt">Voltar</button></td>
+            <td><button onclick="Home()" id="voltaIndex">Home</button></td>
             </tr>
          </table>
     </footer>

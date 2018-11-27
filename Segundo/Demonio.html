@@ -3,7 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Demonio</title>
+    <meta name="description" content="Bestiário de Thomas Strauss, um lugar onde contém dados sobre criadturas sobrenaturais e como detê-las.">
+    <meta name="keywords" content="Bestas, criaturas, sobrenatural, supernatural, lobisomem, bruxas, bruxos, wendigo, demônio, fantasma">
+    <meta name="author" content="Igor Baio Soares">  
+    <title>Demônios</title>
     <link rel="stylesheet" href="estilo.css">
     <script src="script.js"></script>
     <style>
@@ -27,14 +30,21 @@
             height: 30vh;
             width: 30vh;
         }
+        #voltaHome {
+            margin-top: 0;
+        }
+        #voltaPag {
+            margin-top: 3%;
+        }
     </style>
 </head>
 
 <body id="corpo">
      <div onmouseover="moveDemo3()">
-    <audio src="sons/TheRing.mp3" autoplay playsinline controls poster="" loop>
+    <audio src="sons/Resident%20Evil%20Main%20Title%20Theme%20Corp%20Umbrella%20SX%20Long.mp3" autoplay controls loop>
         <p>Seu navegador não suporta o elemento audio </p>
     </audio>
+    <label>Passe o mouse pela página</label>
     </div>
     <div id="caract" onmouseover="moveDemo()">
 
@@ -42,10 +52,10 @@
         <ul>
 
             <li>
-                De acordo com Samuel demônios são o resultado de almas humanas que vão para o inferno e ser torturado até a humanidade não resta neles, assim, transformando-se em demônios, escuros, espíritos mal-intencionados que se divertem em dor, caos e morte.</li>
-            <li>Segundo Strauss, demônios seriam apenas espíritos vingativos. Espíritos perversos e corrompidos, mas apenas espíritos, e que, no fim, morreriam se os ossos do demônio quando este era humano fossem salgados e queimados.
+                De acordo com Samuel, demônios são o resultado de almas humanas que vão para o inferno e são torturadas até a humanidade não restar mais neles, assim, transformam-se em demônios, escuros, espíritos mal-intencionados que se divertem em dor, caos e morte.</li>
+            <li>Segundo Strauss, demônios seriam apenas espíritos vingativos. Espíritos perversos e corrompidos, mas apenas espíritos, e que, no fim, morreriam se os ossos de quando este era humano fossem salgados e queimados.
 </li>
-            <li>Demônios precisam possuír corpos humanos para interagiram com o plano terrêno.</li>
+            <li>Demônios precisam possuir corpos humanos para interagirem com o plano terrêno.</li>
             
         </ul>
     </div>
@@ -53,26 +63,21 @@
         <h2>Fraquezas:</h2>
         <ul>
 
-            <li>Podem prejudicar ou prender os demônios: O sal, símbolos como a armadilha do diabo, o ferro, a água benta
-e o fogo sagrado.</li>
-            <li>Para banir demônios de corpos humanos pode-se usar rituais de exorcismo em latim, porém o hospedeiro
-pode não sobreviver..</li>
+            <li>Podem prejudicar ou prender os demônios: O sal, símbolos como a armadilha do diabo, o ferro, a água benta e o fogo sagrado.</li>
+            <li>Para banir demônios de corpos humanos pode-se usar rituais de exorcismo em latim, porém o hospedeiro pode não sobreviver...</li>
 
         </ul>
     </div>
 
     <p onmouseover="moveDemo2()" id="parag" >
-        &nbsp;De acordo com os diários de Samuel Colt, ele estava perseguindo um demônio que teria assassinado sua esposa,
-o último relato que encontrei em seu diário foi 3 dias antes de Samuel desaparecer de acordo com as informações
-por mim coletadas. O mais provável é que Colt tenha sido morto pelo demônio ou possuído. Ainda estou buscando
-mais detalhes sobre o ocorrido e espero conseguir respostas em breve.
+        &nbsp;De acordo com os diários de Samuel Colt, ele estava perseguindo um demônio que teria assassinado sua esposa, o último relato que encontrei em seu diário foi 3 dias antes de Samuel desaparecer de acordo com as informações por mim coletadas. O mais provável é que Colt tenha sido morto pelo demônio ou possuído. Ainda estou buscando mais detalhes sobre o ocorrido e espero conseguir respostas em breve.
     </p>
     
     <footer>
         <table id="movimentacao" onmouseover="moveDemo3()">
         <tr>
-            <td><button onclick="link()" id="voltaPag">Voltar</button></td>
-            <td><button onclick="Home()" id="voltaHome">Home</button></td>
+            <td><button onclick="link()" id="voltaAnt">Voltar</button></td>
+            <td><button onclick="Home()" id="voltaIndex">Home</button></td>
             </tr>
         </table>
         

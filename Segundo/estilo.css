@@ -1,6 +1,7 @@
 body {
     background-image: url("img/marca.png");
-    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-family: URW Chancery L, cursive;
+    font-style: oblique;
 
 }
 
@@ -8,9 +9,7 @@ body {
 #welc {
     height: 100%;
     width: 100%;
-    /* width: 200vh;
-    height: 100vh;
-*/
+    
 }
 
 #welcome {
@@ -81,6 +80,12 @@ body {
     font-size: 15px;
     color: yellow;
 }
+#titulos1 {
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 15px;
+    color: yellow;
+}
  #movimentacao{
             margin: auto;
             height: 70px;
@@ -93,4 +98,17 @@ body {
     background-attachment: fixed;
     height: 100%;
     width: 100%;
+}
+
+#voltaIndex {
+    margin-top: 0;
+}
+#voltaAnt {
+    margin-top: 3%;
+}
+label{
+    color:darkkhaki;
+    opacity: 0.8;
+    margin-left: 30%;
+    font-weight: bolder;
 }

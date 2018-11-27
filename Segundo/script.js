@@ -38,13 +38,6 @@ function Home() {
 
 }
 
-function uivo() {
-    var som = new Audio();
-    som.src = "sons/uivo1.mp3";
-    som.play();
-
-
-}
 
 function moveWend() {
     var corpo = document.getElementById("corpo");
@@ -246,10 +239,7 @@ function moveDemo3(){
 
 }
 
-/*function fecharJanela(){
-        var Hellowww =document.getElementById("body").src="img/demo7.gif";
-         alert(Hellowww);  
-    }  */
+
 
 function moveGhost() {
     var corpo = document.getElementById("corpo");
